@@ -1,0 +1,689 @@
+┌──(root㉿user)-[~]
+└─# sudo ettercap -T -i wlan0 -M arp:remote //[MASKED_IP]// //[MASKED_IP]//
+
+ettercap 0.8.3.1 copyright 2001-2020 Ettercap Development Team
+
+Listening on:
+ wlan0 -> [MASKED_MAC]
+          [MASKED_IP]/255.255.255.0
+          fe80::d72:6d4b:8e91:c98/64
+
+SSL dissection needs a valid 'redir_command_on' script in the etter.conf file
+Privileges dropped to EUID 65534 EGID 65534...
+
+  34 plugins
+  42 protocol dissectors
+  57 ports monitored
+28230 mac vendor fingerprint
+1766 tcp OS fingerprint
+2182 known services
+Lua: no scripts were specified, not starting up!
+
+Scanning for merged targets (2 hosts)...
+
+/ |=========================>                         |  - |==================================================>| 1* |==================================================>| 100.00 %
+
+1 hosts added to the hosts list...
+
+ARP poisoning victims:
+
+
+ GROUP 2 : [MASKED_IP] [MASKED_MAC]
+Starting Unified sniffing...
+
+
+Text only Interface activated...
+Hit 'h' for inline help
+
+
+
+Tue Dec 10 22:26:23 2024 [217509]
+UDP  [MASKED_IP]:37045 --> 239.255.255.250:1900 |  (101)
+M-SEARCH * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+ST: upnp:rootdevice.
+MAN: "ssdp:discover".
+MX: 3.
+.
+
+
+Tue Dec 10 22:26:48 2024 [101264]
+UDP  [MASKED_IP]:60947 --> 239.255.255.250:1900 |  (132)
+M-SEARCH * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+ST: urn:schemas-upnp-org:device:ManageableDevice:2.
+MAN: "ssdp:discover".
+MX: 3.
+.
+
+
+Tue Dec 10 22:27:07 2024 [147804]
+UDP  [MASKED_IP]:45278 --> 239.255.255.250:1900 |  (101)
+M-SEARCH * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+ST: upnp:rootdevice.
+MAN: "ssdp:discover".
+MX: 3.
+.
+
+
+Tue Dec 10 22:27:16 2024 [364033]
+UDP  [MASKED_IP]:43190 --> 239.255.255.250:1900 |  (132)
+M-SEARCH * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+ST: urn:schemas-upnp-org:device:ManageableDevice:2.
+MAN: "ssdp:discover".
+MX: 3.
+.
+
+
+Tue Dec 10 22:27:28 2024 [961255]
+UDP  [MASKED_IP]:52891 --> 239.255.255.250:1900 |  (471)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=600.
+LOCATION: http://[MASKED_IP]:44649/rootDesc.xml.
+SECURELOCATION.UPNP.ORG: https://[MASKED_IP]:44977/rootDesc.xml.
+SERVER: openSUSE project/42.2 UPnP/2.0 MiniUPnPd/2.1.
+NT: upnp:rootdevice.
+USN: uuid:cb737e2e-d4ac-4514-b72d-9249e81a6f30::upnp:rootdevice.
+NTS: ssdp:alive.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: 1733770800.
+BOOTID.UPNP.ORG: 1733770800.
+CONFIGID.UPNP.ORG: 1337.
+.
+
+
+Tue Dec 10 22:27:28 2024 [961256]
+UDP  [MASKED_IP]:52891 --> 239.255.255.250:1900 |  (533)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=600.
+LOCATION: http://[MASKED_IP]:44649/rootDesc.xml.
+SECURELOCATION.UPNP.ORG: https://[MASKED_IP]:44977/rootDesc.xml.
+SERVER: openSUSE project/42.2 UPnP/2.0 MiniUPnPd/2.1.
+NT: urn:schemas-upnp-org:device:ManageableDevice:2.
+USN: uuid:cb737e2e-d4ac-4514-b72d-9249e81a6f30::urn:schemas-upnp-org:device:ManageableDevice:2.
+NTS: ssdp:alive.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: 1733770800.
+BOOTID.UPNP.ORG: 1733770800.
+CONFIGID.UPNP.ORG: 1337.
+.
+
+
+Tue Dec 10 22:27:28 2024 [961257]
+UDP  [MASKED_IP]:52891 --> 239.255.255.250:1900 |  (480)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=600.
+LOCATION: http://[MASKED_IP]:44649/rootDesc.xml.
+SECURELOCATION.UPNP.ORG: https://[MASKED_IP]:44977/rootDesc.xml.
+SERVER: openSUSE project/42.2 UPnP/2.0 MiniUPnPd/2.1.
+NT: uuid:cb737e2e-d4ac-4514-b72d-9249e81a6f30.
+USN: uuid:cb737e2e-d4ac-4514-b72d-9249e81a6f30.
+NTS: ssdp:alive.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: 1733770800.
+BOOTID.UPNP.ORG: 1733770800.
+CONFIGID.UPNP.ORG: 1337.
+.
+
+
+Tue Dec 10 22:27:28 2024 [963936]
+UDP  [MASKED_IP]:52891 --> 239.255.255.250:1900 |  (533)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=600.
+LOCATION: http://[MASKED_IP]:44649/rootDesc.xml.
+SECURELOCATION.UPNP.ORG: https://[MASKED_IP]:44977/rootDesc.xml.
+SERVER: openSUSE project/42.2 UPnP/2.0 MiniUPnPd/2.1.
+NT: urn:schemas-upnp-org:service:BasicManagement:2.
+USN: uuid:cb737e2e-d4ac-4514-b72d-9249e81a6f30::urn:schemas-upnp-org:service:BasicManagement:2.
+NTS: ssdp:alive.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: 1733770800.
+BOOTID.UPNP.ORG: 1733770800.
+CONFIGID.UPNP.ORG: 1337.
+.
+
+
+Tue Dec 10 22:27:28 2024 [963937]
+UDP  [MASKED_IP]:52891 --> 239.255.255.250:1900 |  (549)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=600.
+LOCATION: http://[MASKED_IP]:44649/rootDesc.xml.
+SECURELOCATION.UPNP.ORG: https://[MASKED_IP]:44977/rootDesc.xml.
+SERVER: openSUSE project/42.2 UPnP/2.0 MiniUPnPd/2.1.
+NT: urn:schemas-upnp-org:service:ConfigurationManagement:2.
+USN: uuid:cb737e2e-d4ac-4514-b72d-9249e81a6f30::urn:schemas-upnp-org:service:ConfigurationManagement:2.
+NTS: ssdp:alive.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: 1733770800.
+BOOTID.UPNP.ORG: 1733770800.
+CONFIGID.UPNP.ORG: 1337.
+.
+
+
+Tue Dec 10 22:27:28 2024 [963938]
+UDP  [MASKED_IP]:58835 --> 239.255.255.250:1900 |  (409)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=600.
+LOCATION: http://[MASKED_IP]:45521/rootDesc.xml.
+SERVER: OpenWRT/19.07-SNAPSHOT UPnP/1.1 MiniUPnPd/2.2.0.
+NT: upnp:rootdevice.
+USN: uuid:a26920e7-2346-4465-b4c8-0ead4163f2c8::upnp:rootdevice.
+NTS: ssdp:alive.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: 1733770756.
+BOOTID.UPNP.ORG: 1733770756.
+CONFIGID.UPNP.ORG: 1337.
+.
+
+
+Tue Dec 10 22:27:28 2024 [965665]
+UDP  [MASKED_IP]:52891 --> 239.255.255.250:1900 |  (535)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=600.
+LOCATION: http://[MASKED_IP]:44649/rootDesc.xml.
+SECURELOCATION.UPNP.ORG: https://[MASKED_IP]:44977/rootDesc.xml.
+SERVER: openSUSE project/42.2 UPnP/2.0 MiniUPnPd/2.1.
+NT: urn:schemas-upnp-org:service:DeviceProtection:1.
+USN: uuid:cb737e2e-d4ac-4514-b72d-9249e81a6f30::urn:schemas-upnp-org:service:DeviceProtection:1.
+NTS: ssdp:alive.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: 1733770800.
+BOOTID.UPNP.ORG: 1733770800.
+CONFIGID.UPNP.ORG: 1337.
+.
+
+
+Tue Dec 10 22:27:28 2024 [965666]
+UDP  [MASKED_IP]:58835 --> 239.255.255.250:1900 |  (481)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=600.
+LOCATION: http://[MASKED_IP]:45521/rootDesc.xml.
+SERVER: OpenWRT/19.07-SNAPSHOT UPnP/1.1 MiniUPnPd/2.2.0.
+NT: urn:schemas-upnp-org:device:InternetGatewayDevice:2.
+USN: uuid:a26920e7-2346-4465-b4c8-0ead4163f2c8::urn:schemas-upnp-org:device:InternetGatewayDevice:2.
+NTS: ssdp:alive.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: 1733770756.
+BOOTID.UPNP.ORG: 1733770756.
+CONFIGID.UPNP.ORG: 1337.
+.
+
+
+Tue Dec 10 22:27:29 2024 [268705]
+UDP  [MASKED_IP]:52891 --> 239.255.255.250:1900 |  (535)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=600.
+LOCATION: http://[MASKED_IP]:44649/rootDesc.xml.
+SECURELOCATION.UPNP.ORG: https://[MASKED_IP]:44977/rootDesc.xml.
+SERVER: openSUSE project/42.2 UPnP/2.0 MiniUPnPd/2.1.
+NT: urn:schemas-upnp-org:service:DeviceProtection:1.
+USN: uuid:cb737e2e-d4ac-4514-b72d-9249e81a6f30::urn:schemas-upnp-org:service:DeviceProtection:1.
+NTS: ssdp:alive.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: 1733770800.
+BOOTID.UPNP.ORG: 1733770800.
+CONFIGID.UPNP.ORG: 1337.
+.
+
+
+Tue Dec 10 22:27:29 2024 [268711]
+UDP  [MASKED_IP]:52891 --> 239.255.255.250:1900 |  (549)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=600.
+LOCATION: http://[MASKED_IP]:44649/rootDesc.xml.
+SECURELOCATION.UPNP.ORG: https://[MASKED_IP]:44977/rootDesc.xml.
+SERVER: openSUSE project/42.2 UPnP/2.0 MiniUPnPd/2.1.
+NT: urn:schemas-upnp-org:service:ConfigurationManagement:2.
+USN: uuid:cb737e2e-d4ac-4514-b72d-9249e81a6f30::urn:schemas-upnp-org:service:ConfigurationManagement:2.
+NTS: ssdp:alive.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: 1733770800.
+BOOTID.UPNP.ORG: 1733770800.
+CONFIGID.UPNP.ORG: 1337.
+.
+
+
+Tue Dec 10 22:27:29 2024 [268714]
+UDP  [MASKED_IP]:52891 --> 239.255.255.250:1900 |  (533)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=600.
+LOCATION: http://[MASKED_IP]:44649/rootDesc.xml.
+SECURELOCATION.UPNP.ORG: https://[MASKED_IP]:44977/rootDesc.xml.
+SERVER: openSUSE project/42.2 UPnP/2.0 MiniUPnPd/2.1.
+NT: urn:schemas-upnp-org:service:BasicManagement:2.
+USN: uuid:cb737e2e-d4ac-4514-b72d-9249e81a6f30::urn:schemas-upnp-org:service:BasicManagement:2.
+NTS: ssdp:alive.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: 1733770800.
+BOOTID.UPNP.ORG: 1733770800.
+CONFIGID.UPNP.ORG: 1337.
+.
+
+
+Tue Dec 10 22:27:29 2024 [271299]
+UDP  [MASKED_IP]:52891 --> 239.255.255.250:1900 |  (480)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=600.
+LOCATION: http://[MASKED_IP]:44649/rootDesc.xml.
+SECURELOCATION.UPNP.ORG: https://[MASKED_IP]:44977/rootDesc.xml.
+SERVER: openSUSE project/42.2 UPnP/2.0 MiniUPnPd/2.1.
+NT: uuid:cb737e2e-d4ac-4514-b72d-9249e81a6f30.
+USN: uuid:cb737e2e-d4ac-4514-b72d-9249e81a6f30.
+NTS: ssdp:alive.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: 1733770800.
+BOOTID.UPNP.ORG: 1733770800.
+CONFIGID.UPNP.ORG: 1337.
+.
+
+
+Tue Dec 10 22:27:29 2024 [271300]
+UDP  [MASKED_IP]:52891 --> 239.255.255.250:1900 |  (533)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=600.
+LOCATION: http://[MASKED_IP]:44649/rootDesc.xml.
+SECURELOCATION.UPNP.ORG: https://[MASKED_IP]:44977/rootDesc.xml.
+SERVER: openSUSE project/42.2 UPnP/2.0 MiniUPnPd/2.1.
+NT: urn:schemas-upnp-org:device:ManageableDevice:2.
+USN: uuid:cb737e2e-d4ac-4514-b72d-9249e81a6f30::urn:schemas-upnp-org:device:ManageableDevice:2.
+NTS: ssdp:alive.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: 1733770800.
+BOOTID.UPNP.ORG: 1733770800.
+CONFIGID.UPNP.ORG: 1337.
+.
+
+
+Tue Dec 10 22:27:29 2024 [271301]
+UDP  [MASKED_IP]:52891 --> 239.255.255.250:1900 |  (471)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=600.
+LOCATION: http://[MASKED_IP]:44649/rootDesc.xml.
+SECURELOCATION.UPNP.ORG: https://[MASKED_IP]:44977/rootDesc.xml.
+SERVER: openSUSE project/42.2 UPnP/2.0 MiniUPnPd/2.1.
+NT: upnp:rootdevice.
+USN: uuid:cb737e2e-d4ac-4514-b72d-9249e81a6f30::upnp:rootdevice.
+NTS: ssdp:alive.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: 1733770800.
+BOOTID.UPNP.ORG: 1733770800.
+CONFIGID.UPNP.ORG: 1337.
+.
+
+
+Tue Dec 10 22:27:29 2024 [273051]
+UDP  [MASKED_IP]:58835 --> 239.255.255.250:1900 |  (473)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=600.
+LOCATION: http://[MASKED_IP]:45521/rootDesc.xml.
+SERVER: OpenWRT/19.07-SNAPSHOT UPnP/1.1 MiniUPnPd/2.2.0.
+NT: urn:schemas-upnp-org:service:Layer3Forwarding:1.
+USN: uuid:a26920e7-2346-4465-b4c8-0ead4163f2c8::urn:schemas-upnp-org:service:Layer3Forwarding:1.
+NTS: ssdp:alive.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: 1733770756.
+BOOTID.UPNP.ORG: 1733770756.
+CONFIGID.UPNP.ORG: 1337.
+.
+
+
+Tue Dec 10 22:27:29 2024 [273052]
+UDP  [MASKED_IP]:58835 --> 239.255.255.250:1900 |  (489)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=600.
+LOCATION: http://[MASKED_IP]:45521/rootDesc.xml.
+SERVER: OpenWRT/19.07-SNAPSHOT UPnP/1.1 MiniUPnPd/2.2.0.
+NT: urn:schemas-upnp-org:service:WANCommonInterfaceConfig:1.
+USN: uuid:a26920e7-2346-4465-b4c8-0ead4163f2c9::urn:schemas-upnp-org:service:WANCommonInterfaceConfig:1.
+NTS: ssdp:alive.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: 1733770756.
+BOOTID.UPNP.ORG: 1733770756.
+CONFIGID.UPNP.ORG: 1337.
+.
+
+
+Tue Dec 10 22:27:29 2024 [275839]
+UDP  [MASKED_IP]:58835 --> 239.255.255.250:1900 |  (485)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=600.
+LOCATION: http://[MASKED_IP]:45521/rootDesc.xml.
+SERVER: OpenWRT/19.07-SNAPSHOT UPnP/1.1 MiniUPnPd/2.2.0.
+NT: urn:schemas-upnp-org:service:WANIPv6FirewallControl:1.
+USN: uuid:a26920e7-2346-4465-b4c8-0ead4163f2ca::urn:schemas-upnp-org:service:WANIPv6FirewallControl:1.
+NTS: ssdp:alive.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: 1733770756.
+BOOTID.UPNP.ORG: 1733770756.
+CONFIGID.UPNP.ORG: 1337.
+.
+
+
+Tue Dec 10 22:27:29 2024 [275840]
+UDP  [MASKED_IP]:58835 --> 239.255.255.250:1900 |  (473)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=600.
+LOCATION: http://[MASKED_IP]:45521/rootDesc.xml.
+SERVER: OpenWRT/19.07-SNAPSHOT UPnP/1.1 MiniUPnPd/2.2.0.
+NT: urn:schemas-upnp-org:service:DeviceProtection:1.
+USN: uuid:a26920e7-2346-4465-b4c8-0ead4163f2c8::urn:schemas-upnp-org:service:DeviceProtection:1.
+NTS: ssdp:alive.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: 1733770756.
+BOOTID.UPNP.ORG: 1733770756.
+CONFIGID.UPNP.ORG: 1337.
+.
+
+
+Tue Dec 10 22:27:33 2024 [875366]
+UDP  [MASKED_IP]:67 --> 255.255.255.255:68 |  (337)
+.....)...........................e..........................................................................................................................................................................................................c.Sc5..6.....3...Q.....................mynetworksettings.com}&....!..880355..G402121101528625..G3100.DHCP: [[MASKED_IP]] OFFER : [MASKED_IP] 255.255.255.0 GW [MASKED_IP] DNS [MASKED_IP] "mynetworksettings.com"
+
+
+Tue Dec 10 22:27:35 2024 [410162]
+UDP  [MASKED_IP]:42934 --> 239.255.255.250:1900 |  (101)
+M-SEARCH * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+ST: upnp:rootdevice.
+MAN: "ssdp:discover".
+MX: 3.
+.
+
+
+Tue Dec 10 22:27:56 2024 [302264]
+UDP  169.254.131.109:47077 --> 239.255.255.250:1900 |  (427)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=1800.
+LOCATION: http://169.254.131.109:49311/device.xml.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: a7345244-b6bd-11ef-96e6-c436a67b13be.
+NT: upnp:rootdevice.
+NTS: ssdp:alive.
+SERVER: Linux/3.14.28-1.25, UPnP/1.0, Portable SDK for UPnP devices/1.6.22.
+X-User-Agent: redsonic.
+USN: uuid:482e8dac-7fad-11df-afb7-74911a7dcba0::upnp:rootdevice.
+.
+
+
+Tue Dec 10 22:27:56 2024 [302266]
+UDP  169.254.131.109:47077 --> 239.255.255.250:1900 |  (436)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=1800.
+LOCATION: http://169.254.131.109:49311/device.xml.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: a7345244-b6bd-11ef-96e6-c436a67b13be.
+NT: uuid:482e8dac-7fad-11df-afb7-74911a7dcba0.
+NTS: ssdp:alive.
+SERVER: Linux/3.14.28-1.25, UPnP/1.0, Portable SDK for UPnP devices/1.6.22.
+X-User-Agent: redsonic.
+USN: uuid:482e8dac-7fad-11df-afb7-74911a7dcba0.
+.
+
+
+Tue Dec 10 22:27:56 2024 [302266]
+UDP  169.254.131.109:47077 --> 239.255.255.250:1900 |  (493)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=1800.
+LOCATION: http://169.254.131.109:49311/device.xml.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: a7345244-b6bd-11ef-96e6-c436a67b13be.
+NT: urn:schemas-echostar-com:device:EchoStarDevice:1.
+NTS: ssdp:alive.
+SERVER: Linux/3.14.28-1.25, UPnP/1.0, Portable SDK for UPnP devices/1.6.22.
+X-User-Agent: redsonic.
+USN: uuid:482e8dac-7fad-11df-afb7-74911a7dcba0::urn:schemas-echostar-com:device:EchoStarDevice:1.
+.
+
+
+Tue Dec 10 22:27:56 2024 [304723]
+UDP  169.254.131.109:41643 --> 239.255.255.250:1900 |  (497)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=1800.
+LOCATION: http://169.254.131.109:49311/device.xml.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: a7345244-b6bd-11ef-96e6-c436a67b13be.
+NT: urn:schemas-echostar-com:service:EchostarService:1.
+NTS: ssdp:alive.
+SERVER: Linux/3.14.28-1.25, UPnP/1.0, Portable SDK for UPnP devices/1.6.22.
+X-User-Agent: redsonic.
+USN: uuid:482e8dac-7fad-11df-afb7-74911a7dcba0::urn:schemas-echostar-com:service:EchostarService:1.
+.
+
+
+Tue Dec 10 22:27:56 2024 [304724]
+UDP  169.254.131.109:43029 --> 239.255.255.250:1900 |  (475)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=1800.
+LOCATION: http://169.254.131.109:49311/device.xml.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: a7345244-b6bd-11ef-96e6-c436a67b13be.
+NT: urn:dial-multiscreen-org:service:dial:1.
+NTS: ssdp:alive.
+SERVER: Linux/3.14.28-1.25, UPnP/1.0, Portable SDK for UPnP devices/1.6.22.
+X-User-Agent: redsonic.
+USN: uuid:482e8dac-7fad-11df-afb7-74911a7dcba0::urn:dial-multiscreen-org:service:dial:1.
+.
+
+
+Tue Dec 10 22:27:56 2024 [609013]
+UDP  169.254.131.109:45400 --> 239.255.255.250:1900 |  (427)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=1800.
+LOCATION: http://169.254.131.109:49311/device.xml.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: a7345244-b6bd-11ef-96e6-c436a67b13be.
+NT: upnp:rootdevice.
+NTS: ssdp:alive.
+SERVER: Linux/3.14.28-1.25, UPnP/1.0, Portable SDK for UPnP devices/1.6.22.
+X-User-Agent: redsonic.
+USN: uuid:482e8dac-7fad-11df-afb7-74911a7dcba0::upnp:rootdevice.
+.
+
+
+Tue Dec 10 22:27:56 2024 [613747]
+UDP  169.254.131.109:45400 --> 239.255.255.250:1900 |  (436)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=1800.
+LOCATION: http://169.254.131.109:49311/device.xml.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: a7345244-b6bd-11ef-96e6-c436a67b13be.
+NT: uuid:482e8dac-7fad-11df-afb7-74911a7dcba0.
+NTS: ssdp:alive.
+SERVER: Linux/3.14.28-1.25, UPnP/1.0, Portable SDK for UPnP devices/1.6.22.
+X-User-Agent: redsonic.
+USN: uuid:482e8dac-7fad-11df-afb7-74911a7dcba0.
+.
+
+
+Tue Dec 10 22:27:56 2024 [613747]
+UDP  169.254.131.109:45400 --> 239.255.255.250:1900 |  (493)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=1800.
+LOCATION: http://169.254.131.109:49311/device.xml.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: a7345244-b6bd-11ef-96e6-c436a67b13be.
+NT: urn:schemas-echostar-com:device:EchoStarDevice:1.
+NTS: ssdp:alive.
+SERVER: Linux/3.14.28-1.25, UPnP/1.0, Portable SDK for UPnP devices/1.6.22.
+X-User-Agent: redsonic.
+USN: uuid:482e8dac-7fad-11df-afb7-74911a7dcba0::urn:schemas-echostar-com:device:EchoStarDevice:1.
+.
+
+
+Tue Dec 10 22:27:56 2024 [617464]
+UDP  169.254.131.109:52209 --> 239.255.255.250:1900 |  (497)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=1800.
+LOCATION: http://169.254.131.109:49311/device.xml.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: a7345244-b6bd-11ef-96e6-c436a67b13be.
+NT: urn:schemas-echostar-com:service:EchostarService:1.
+NTS: ssdp:alive.
+SERVER: Linux/3.14.28-1.25, UPnP/1.0, Portable SDK for UPnP devices/1.6.22.
+X-User-Agent: redsonic.
+USN: uuid:482e8dac-7fad-11df-afb7-74911a7dcba0::urn:schemas-echostar-com:service:EchostarService:1.
+.
+
+
+Tue Dec 10 22:27:56 2024 [617465]
+UDP  169.254.131.109:51980 --> 239.255.255.250:1900 |  (475)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=1800.
+LOCATION: http://169.254.131.109:49311/device.xml.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: a7345244-b6bd-11ef-96e6-c436a67b13be.
+NT: urn:dial-multiscreen-org:service:dial:1.
+NTS: ssdp:alive.
+SERVER: Linux/3.14.28-1.25, UPnP/1.0, Portable SDK for UPnP devices/1.6.22.
+X-User-Agent: redsonic.
+USN: uuid:482e8dac-7fad-11df-afb7-74911a7dcba0::urn:dial-multiscreen-org:service:dial:1.
+.
+
+
+Tue Dec 10 22:28:00 2024 [295036]
+UDP  [MASKED_IP]:67 --> 255.255.255.255:68 |  (337)
+......4r.......................K............................................................................................................................................................................................................c.Sc5..6.....3...Q.....................mynetworksettings.com}&....!..880355..G402121101528625..G3100.DHCP: [[MASKED_IP]] OFFER : [MASKED_IP] 255.255.255.0 GW [MASKED_IP] DNS [MASKED_IP] "mynetworksettings.com"
+
+
+Tue Dec 10 22:28:00 2024 [603097]
+UDP  169.254.135.182:35793 --> 239.255.255.250:1900 |  (427)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=1800.
+LOCATION: http://169.254.135.182:49311/device.xml.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: a818959e-b6bd-11ef-87e6-b96c75e22709.
+NT: upnp:rootdevice.
+NTS: ssdp:alive.
+SERVER: Linux/3.14.28-1.25, UPnP/1.0, Portable SDK for UPnP devices/1.6.22.
+X-User-Agent: redsonic.
+USN: uuid:482e8dac-7fad-11df-afb7-741c08fbcba0::upnp:rootdevice.
+.
+
+
+Tue Dec 10 22:28:00 2024 [605319]
+UDP  169.254.135.182:35793 --> 239.255.255.250:1900 |  (436)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=1800.
+LOCATION: http://169.254.135.182:49311/device.xml.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: a818959e-b6bd-11ef-87e6-b96c75e22709.
+NT: uuid:482e8dac-7fad-11df-afb7-741c08fbcba0.
+NTS: ssdp:alive.
+SERVER: Linux/3.14.28-1.25, UPnP/1.0, Portable SDK for UPnP devices/1.6.22.
+X-User-Agent: redsonic.
+USN: uuid:482e8dac-7fad-11df-afb7-741c08fbcba0.
+.
+
+
+Tue Dec 10 22:28:00 2024 [607890]
+UDP  169.254.135.182:35793 --> 239.255.255.250:1900 |  (493)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=1800.
+LOCATION: http://169.254.135.182:49311/device.xml.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: a818959e-b6bd-11ef-87e6-b96c75e22709.
+NT: urn:schemas-echostar-com:device:EchoStarDevice:1.
+NTS: ssdp:alive.
+SERVER: Linux/3.14.28-1.25, UPnP/1.0, Portable SDK for UPnP devices/1.6.22.
+X-User-Agent: redsonic.
+USN: uuid:482e8dac-7fad-11df-afb7-741c08fbcba0::urn:schemas-echostar-com:device:EchoStarDevice:1.
+.
+
+
+Tue Dec 10 22:28:00 2024 [607893]
+UDP  169.254.135.182:40247 --> 239.255.255.250:1900 |  (497)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=1800.
+LOCATION: http://169.254.135.182:49311/device.xml.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: a818959e-b6bd-11ef-87e6-b96c75e22709.
+NT: urn:schemas-echostar-com:service:EchostarService:1.
+NTS: ssdp:alive.
+SERVER: Linux/3.14.28-1.25, UPnP/1.0, Portable SDK for UPnP devices/1.6.22.
+X-User-Agent: redsonic.
+USN: uuid:482e8dac-7fad-11df-afb7-741c08fbcba0::urn:schemas-echostar-com:service:EchostarService:1.
+.
+
+
+Tue Dec 10 22:28:00 2024 [608831]
+UDP  169.254.135.182:36497 --> 239.255.255.250:1900 |  (475)
+NOTIFY * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+CACHE-CONTROL: max-age=1800.
+LOCATION: http://169.254.135.182:49311/device.xml.
+OPT: "http://schemas.upnp.org/upnp/1/0/"; ns=01.
+01-NLS: a818959e-b6bd-11ef-87e6-b96c75e22709.
+NT: urn:dial-multiscreen-org:service:dial:1.
+NTS: ssdp:alive.
+SERVER: Linux/3.14.28-1.25, UPnP/1.0, Portable SDK for UPnP devices/1.6.22.
+X-User-Agent: redsonic.
+USN: uuid:482e8dac-7fad-11df-afb7-741c08fbcba0::urn:dial-multiscreen-org:service:dial:1.
+.
+
+
+Tue Dec 10 22:28:05 2024 [516562]
+UDP  [MASKED_IP]:37307 --> 239.255.255.250:1900 |  (132)
+M-SEARCH * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+ST: urn:schemas-upnp-org:device:ManageableDevice:2.
+MAN: "ssdp:discover".
+MX: 3.
+.
+
+
+Tue Dec 10 22:28:24 2024 [562748]
+UDP  [MASKED_IP]:44254 --> 239.255.255.250:1900 |  (101)
+M-SEARCH * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+ST: upnp:rootdevice.
+MAN: "ssdp:discover".
+MX: 3.
+.
+
+
+
+User requested a CTRL+C... (deprecated, next time use proper shutdown)
+
+
+
+Tue Dec 10 22:28:47 2024 [910043]
+UDP  [MASKED_IP]:48146 --> 239.255.255.250:1900 |  (132)
+M-SEARCH * HTTP/1.1.
+HOST: 239.255.255.250:1900.
+ST: urn:schemas-upnp-org:device:ManageableDevice:2.
+MAN: "ssdp:discover".
+MX: 3.
